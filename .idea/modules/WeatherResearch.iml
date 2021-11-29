@@ -11,20 +11,6 @@
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
     </content>
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-server-common:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-common:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-jobclient:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-auth:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-common:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-client:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-api:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-client:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-server-nodemanager:2.6.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5:jar" level="project" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.carrotsearch:hppc:0.7.2:jar" level="project" />
@@ -97,6 +83,20 @@
     <orderEntry type="library" name="sbt: org.apache.directory.server:apacheds-i18n:2.0.0-M15:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.directory.server:apacheds-kerberos-codec:2.0.0-M15:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-annotations:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-auth:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-client:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-common:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-app:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-common:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-jobclient:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-api:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-client:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-common:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-server-common:2.6.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-server-nodemanager:2.6.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpclient:4.2.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpcore:4.2.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.ivy:ivy:2.4.0:jar" level="project" />
@@ -169,13 +169,11 @@
       <library name="sbt: unmanaged-sources-and-docs">
         <CLASSES />
         <JAVADOC>
-          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-core/1.5.5/orc-core-1.5.5-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-mapreduce/1.5.5/orc-mapreduce-1.5.5-javadoc.jar!/" />
         </JAVADOC>
         <SOURCES>
-          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-sources.jar!/" />
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-sources.jar!/" />
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-core/1.5.5/orc-core-1.5.5-sources.jar!/" />
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-mapreduce/1.5.5/orc-mapreduce-1.5.5-sources.jar!/" />

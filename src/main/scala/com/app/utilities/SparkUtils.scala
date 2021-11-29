@@ -4,12 +4,12 @@ import org.apache.spark.sql.SparkSession
 
 trait SparkComputation {
 
-  //Define a spark session
+  // defining SparkSession
   lazy val spark =
     SparkSession
       .builder()
       .master("local[*]")
-      .appName("WeatherResearchMain")
+      .appName("WeatherResearch")
       .enableHiveSupport()
       .getOrCreate()
 

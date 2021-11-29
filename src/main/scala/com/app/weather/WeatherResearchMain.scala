@@ -18,17 +18,21 @@ object WeatherResearchMain extends SparkComputation{
 
     val pressure = new PressureComputation()
     // computing pressure data and getting the data
+    logger.info("pressure computation")
     val pressureDF = pressure.pressureCompute(spark)
-    //todo
-    //    val temperature = new TemperatureComputation()
-    //   temperature.temperatureCompute(spark)
 
+    // computing pressure data and getting the data
+    val temperature = new TemperatureComputation()
+    logger.info("temperature computation")
+    val temperatureDF = temperature.temperatureCompute(spark)
+
+    // analysing data
     val WeatherDataAnalysis  = new WeatherDataAnalysis()
-    WeatherDataAnalysis.dataAnalysis(spark,pressureDF)
+    WeatherDataAnalysis.pressureDataAnalysis(spark,pressureDF)
+    WeatherDataAnalysis.temperatureDataAnalysis(spark,temperatureDF)
 
     //stop the spark session
     def stopSpark(): Unit = stopSpark()
 
   }
-
 }

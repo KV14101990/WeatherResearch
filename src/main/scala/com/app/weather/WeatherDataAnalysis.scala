@@ -3,26 +3,27 @@ package com.app.weather
 import com.app.utilities.SparkComputation
 import org.apache.log4j.LogManager
 import org.apache.spark.sql.{DataFrame, SparkSession}
+import org.apache.spark.sql.functions.col
 
 /**
- *todo
+ * - This class provides the data analysis pf pressure and temperature data
+ * - logs info about data such as total count
  */
 class WeatherDataAnalysis extends SparkComputation{
   val logger = LogManager.getLogger(this.getClass.getName)
 
   /**
-   * This returns insights for Pressure Data
+   * Returns insights for Pressure Data
    * @param sparkSession
    * @param pressureDF
    */
   def pressureDataAnalysis(sparkSession: SparkSession,pressureDF:DataFrame):Unit = {
     val pressureDFOutputCount =  pressureDF.count()
     logger.info("Transformed pressure output data count is " + pressureDFOutputCount)
-
   }
 
   /**
-   * This returns insights for Temperature Data
+   * Returns insights for Temperature Data
    * @param sparkSession
    * @param pressureDF
    */

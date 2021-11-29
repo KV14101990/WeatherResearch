@@ -1,7 +1,7 @@
 package com.app.schema
 
 /**
- *
+ * This defines the schema for pressure and temperature data
  */
 class DataSchema extends Serializable {
 
@@ -13,14 +13,14 @@ class DataSchema extends Serializable {
                              pressure_noon:    String,
                              pressure_evening: String)
 
-  case class UncleanedPressureSchema(
-                                      col1:            String,
-                                      year:             String,
-                                      month:            String,
-                                      day:              String,
-                                      pressure_morning: String,
-                                      pressure_noon:    String,
-                                      pressure_evening: String)
+  case class UncleanPressureSchema(
+                                    col1:            String,
+                                    year:             String,
+                                    month:            String,
+                                    day:              String,
+                                    pressure_morning: String,
+                                    pressure_noon:    String,
+                                    pressure_evening: String)
 
   case class PressureSchema_1756(
                                   year:                                 String,
@@ -60,7 +60,9 @@ class DataSchema extends Serializable {
                                      year:                             String,
                                      month:                            String,
                                      day:                              String,
-                                     pressure_morning:                 String,
+                                     morning:                          String,
+                                     noon:                             String,
+                                     evening:                          String,
                                      temperature_min:                  String,
                                      temperature_max:                  String
                                    )
@@ -72,12 +74,12 @@ class DataSchema extends Serializable {
                                           morning:              String,
                                           noon:                 String,
                                           evening:              String,
-                                          minimum:              String,
-                                          maximum:              String,
+                                          temperature_min:              String,
+                                          temperature_max:              String,
                                           estimatedDiurnalMean: String)
 
   case class UncleanTemperatureSchema(
-                                       extra:   String,
+                                       col1:   String,
                                        year:    String,
                                        month:   String,
                                        day:     String,
