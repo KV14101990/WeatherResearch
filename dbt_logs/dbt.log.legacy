@@ -5482,3 +5482,650 @@ COMMIT
 2022-11-21 13:47:21.259318 (Thread-186): handling status request
 2022-11-21 13:47:21.259766 (Thread-186): 13:47:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f6ef2c310>]}
 2022-11-21 13:47:21.260273 (Thread-186): sending response (<Response 1286 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:23.601068 (Thread-187): 13:47:23  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-11-21 13:47:23.601312 (Thread-187): 13:47:23  Partial parsing enabled, no changes found, skipping parsing
+2022-11-21 13:47:23.608956 (Thread-187): 13:47:23  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f67084e80>]}
+2022-11-21 13:47:24.290270 (Thread-188): handling status request
+2022-11-21 13:47:24.290678 (Thread-188): 13:47:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f6717f3a0>]}
+2022-11-21 13:47:24.291153 (Thread-188): sending response (<Response 1273 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:24.374812 (Thread-189): handling status request
+2022-11-21 13:47:24.375227 (Thread-189): 13:47:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f6717f2b0>]}
+2022-11-21 13:47:24.375682 (Thread-189): sending response (<Response 1273 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:46.777413 (Thread-190): handling status request
+2022-11-21 13:47:46.777857 (Thread-190): 13:47:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f6717f190>]}
+2022-11-21 13:47:46.778357 (Thread-190): sending response (<Response 1273 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:47.204499 (Thread-191): handling status request
+2022-11-21 13:47:47.204956 (Thread-191): 13:47:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f670eff40>]}
+2022-11-21 13:47:47.205464 (Thread-191): sending response (<Response 1273 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:47.218659 (Thread-192): handling cli_args request
+2022-11-21 13:47:47.218949 (Thread-192): 13:47:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f670efe80>]}
+2022-11-21 13:47:49.994367 (Thread-192): sending response (<Response 140 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:50.143549 (MainThread): 13:47:50  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-11-21 13:47:50.143999 (MainThread): 13:47:50  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3026c9c400>]}
+2022-11-21 13:47:50.342348 (MainThread): 13:47:50  Parsing macros/no_nulls_in_columns.sql
+2022-11-21 13:47:50.343449 (MainThread): 13:47:50  Parsing macros/positive_value.sql
+2022-11-21 13:47:50.344039 (MainThread): 13:47:50  Parsing macros/apply_grants.sql
+2022-11-21 13:47:50.345871 (MainThread): 13:47:50  Parsing macros/catalog.sql
+2022-11-21 13:47:50.347694 (MainThread): 13:47:50  Parsing macros/adapters.sql
+2022-11-21 13:47:50.387242 (MainThread): 13:47:50  Parsing macros/materializations/seed.sql
+2022-11-21 13:47:50.392155 (MainThread): 13:47:50  Parsing macros/materializations/incremental.sql
+2022-11-21 13:47:50.402182 (MainThread): 13:47:50  Parsing macros/materializations/test.sql
+2022-11-21 13:47:50.403188 (MainThread): 13:47:50  Parsing macros/materializations/snapshot.sql
+2022-11-21 13:47:50.410669 (Thread-193): handling poll request
+2022-11-21 13:47:50.411110 (Thread-193): 13:47:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f760da5b0>]}
+2022-11-21 13:47:50.412013 (Thread-193): sending response (<Response 3706 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:50.404086 (MainThread): 13:47:50  Parsing macros/materializations/merge.sql
+2022-11-21 13:47:50.407718 (MainThread): 13:47:50  Parsing macros/materializations/table.sql
+2022-11-21 13:47:50.413298 (MainThread): 13:47:50  Parsing macros/materializations/view.sql
+2022-11-21 13:47:50.414593 (MainThread): 13:47:50  Parsing macros/utils/escape_single_quotes.sql
+2022-11-21 13:47:50.415139 (MainThread): 13:47:50  Parsing macros/utils/safe_cast.sql
+2022-11-21 13:47:50.415623 (MainThread): 13:47:50  Parsing macros/utils/array_construct.sql
+2022-11-21 13:47:50.416132 (MainThread): 13:47:50  Parsing macros/utils/timestamps.sql
+2022-11-21 13:47:50.418014 (MainThread): 13:47:50  Parsing macros/utils/right.sql
+2022-11-21 13:47:50.418762 (MainThread): 13:47:50  Parsing macros/utils/bool_or.sql
+2022-11-21 13:47:50.419198 (MainThread): 13:47:50  Parsing macros/etc/statement.sql
+2022-11-21 13:47:50.424263 (MainThread): 13:47:50  Parsing macros/etc/datetime.sql
+2022-11-21 13:47:50.432112 (MainThread): 13:47:50  Parsing macros/adapters/apply_grants.sql
+2022-11-21 13:47:50.445486 (MainThread): 13:47:50  Parsing macros/adapters/freshness.sql
+2022-11-21 13:47:50.447387 (MainThread): 13:47:50  Parsing macros/adapters/columns.sql
+2022-11-21 13:47:50.456620 (MainThread): 13:47:50  Parsing macros/adapters/timestamps.sql
+2022-11-21 13:47:50.459980 (MainThread): 13:47:50  Parsing macros/adapters/relation.sql
+2022-11-21 13:47:50.474027 (MainThread): 13:47:50  Parsing macros/adapters/schema.sql
+2022-11-21 13:47:50.476218 (MainThread): 13:47:50  Parsing macros/adapters/persist_docs.sql
+2022-11-21 13:47:50.480622 (MainThread): 13:47:50  Parsing macros/adapters/metadata.sql
+2022-11-21 13:47:50.487464 (MainThread): 13:47:50  Parsing macros/adapters/indexes.sql
+2022-11-21 13:47:50.490034 (MainThread): 13:47:50  Parsing macros/get_custom_name/get_custom_database.sql
+2022-11-21 13:47:50.491638 (MainThread): 13:47:50  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-11-21 13:47:50.493960 (MainThread): 13:47:50  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-11-21 13:47:50.495610 (MainThread): 13:47:50  Parsing macros/python_model/python.sql
+2022-11-21 13:47:50.501369 (MainThread): 13:47:50  Parsing macros/materializations/hooks.sql
+2022-11-21 13:47:50.505030 (MainThread): 13:47:50  Parsing macros/materializations/configs.sql
+2022-11-21 13:47:50.507544 (MainThread): 13:47:50  Parsing macros/materializations/seeds/seed.sql
+2022-11-21 13:47:50.514211 (MainThread): 13:47:50  Parsing macros/materializations/seeds/helpers.sql
+2022-11-21 13:47:50.531820 (MainThread): 13:47:50  Parsing macros/materializations/tests/test.sql
+2022-11-21 13:47:50.536060 (MainThread): 13:47:50  Parsing macros/materializations/tests/helpers.sql
+2022-11-21 13:47:50.537914 (MainThread): 13:47:50  Parsing macros/materializations/tests/where_subquery.sql
+2022-11-21 13:47:50.539601 (MainThread): 13:47:50  Parsing macros/materializations/models/view/helpers.sql
+2022-11-21 13:47:50.540873 (MainThread): 13:47:50  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-11-21 13:47:50.544057 (MainThread): 13:47:50  Parsing macros/materializations/models/view/create_view_as.sql
+2022-11-21 13:47:50.546283 (MainThread): 13:47:50  Parsing macros/materializations/models/view/view.sql
+2022-11-21 13:47:50.551455 (MainThread): 13:47:50  Parsing macros/materializations/models/incremental/strategies.sql
+2022-11-21 13:47:50.558223 (MainThread): 13:47:50  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-11-21 13:47:50.565968 (MainThread): 13:47:50  Parsing macros/materializations/models/incremental/incremental.sql
+2022-11-21 13:47:50.575761 (MainThread): 13:47:50  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-11-21 13:47:50.596805 (MainThread): 13:47:50  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-11-21 13:47:50.598411 (MainThread): 13:47:50  Parsing macros/materializations/models/incremental/merge.sql
+2022-11-21 13:47:50.612776 (MainThread): 13:47:50  Parsing macros/materializations/models/table/create_table_as.sql
+2022-11-21 13:47:50.616209 (MainThread): 13:47:50  Parsing macros/materializations/models/table/table.sql
+2022-11-21 13:47:50.621474 (MainThread): 13:47:50  Parsing macros/materializations/snapshots/strategies.sql
+2022-11-21 13:47:50.636935 (MainThread): 13:47:50  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-11-21 13:47:50.638470 (MainThread): 13:47:50  Parsing macros/materializations/snapshots/snapshot.sql
+2022-11-21 13:47:50.649415 (MainThread): 13:47:50  Parsing macros/materializations/snapshots/helpers.sql
+2022-11-21 13:47:50.661634 (MainThread): 13:47:50  Parsing macros/generic_test_sql/not_null.sql
+2022-11-21 13:47:50.662436 (MainThread): 13:47:50  Parsing macros/generic_test_sql/relationships.sql
+2022-11-21 13:47:50.663240 (MainThread): 13:47:50  Parsing macros/generic_test_sql/unique.sql
+2022-11-21 13:47:50.663870 (MainThread): 13:47:50  Parsing macros/generic_test_sql/accepted_values.sql
+2022-11-21 13:47:50.665160 (MainThread): 13:47:50  Parsing macros/utils/intersect.sql
+2022-11-21 13:47:50.665961 (MainThread): 13:47:50  Parsing macros/utils/position.sql
+2022-11-21 13:47:50.667102 (MainThread): 13:47:50  Parsing macros/utils/escape_single_quotes.sql
+2022-11-21 13:47:50.668112 (MainThread): 13:47:50  Parsing macros/utils/safe_cast.sql
+2022-11-21 13:47:50.669341 (MainThread): 13:47:50  Parsing macros/utils/array_construct.sql
+2022-11-21 13:47:50.670768 (MainThread): 13:47:50  Parsing macros/utils/cast_bool_to_text.sql
+2022-11-21 13:47:50.671768 (MainThread): 13:47:50  Parsing macros/utils/datediff.sql
+2022-11-21 13:47:50.673068 (MainThread): 13:47:50  Parsing macros/utils/concat.sql
+2022-11-21 13:47:50.674007 (MainThread): 13:47:50  Parsing macros/utils/length.sql
+2022-11-21 13:47:50.674928 (MainThread): 13:47:50  Parsing macros/utils/any_value.sql
+2022-11-21 13:47:50.675822 (MainThread): 13:47:50  Parsing macros/utils/data_types.sql
+2022-11-21 13:47:50.682572 (MainThread): 13:47:50  Parsing macros/utils/array_concat.sql
+2022-11-21 13:47:50.683582 (MainThread): 13:47:50  Parsing macros/utils/right.sql
+2022-11-21 13:47:50.684629 (MainThread): 13:47:50  Parsing macros/utils/array_append.sql
+2022-11-21 13:47:50.685680 (MainThread): 13:47:50  Parsing macros/utils/last_day.sql
+2022-11-21 13:47:50.687490 (MainThread): 13:47:50  Parsing macros/utils/split_part.sql
+2022-11-21 13:47:50.689448 (MainThread): 13:47:50  Parsing macros/utils/date_trunc.sql
+2022-11-21 13:47:50.690467 (MainThread): 13:47:50  Parsing macros/utils/literal.sql
+2022-11-21 13:47:50.691348 (MainThread): 13:47:50  Parsing macros/utils/hash.sql
+2022-11-21 13:47:50.692592 (MainThread): 13:47:50  Parsing macros/utils/except.sql
+2022-11-21 13:47:50.693424 (MainThread): 13:47:50  Parsing macros/utils/bool_or.sql
+2022-11-21 13:47:50.694314 (MainThread): 13:47:50  Parsing macros/utils/replace.sql
+2022-11-21 13:47:50.695463 (MainThread): 13:47:50  Parsing macros/utils/dateadd.sql
+2022-11-21 13:47:50.696645 (MainThread): 13:47:50  Parsing macros/utils/listagg.sql
+2022-11-21 13:47:50.698941 (MainThread): 13:47:50  Parsing tests/generic/builtin.sql
+2022-11-21 13:47:50.701772 (MainThread): 13:47:50  Parsing macros/sql/pivot.sql
+2022-11-21 13:47:50.705874 (MainThread): 13:47:50  Parsing macros/sql/star.sql
+2022-11-21 13:47:50.709507 (MainThread): 13:47:50  Parsing macros/sql/get_table_types_sql.sql
+2022-11-21 13:47:50.711022 (MainThread): 13:47:50  Parsing macros/sql/deduplicate.sql
+2022-11-21 13:47:50.717807 (MainThread): 13:47:50  Parsing macros/sql/surrogate_key.sql
+2022-11-21 13:47:50.721118 (MainThread): 13:47:50  Parsing macros/sql/get_query_results_as_dict.sql
+2022-11-21 13:47:50.723392 (MainThread): 13:47:50  Parsing macros/sql/date_spine.sql
+2022-11-21 13:47:50.727436 (MainThread): 13:47:50  Parsing macros/sql/get_column_values.sql
+2022-11-21 13:47:50.732894 (MainThread): 13:47:50  Parsing macros/sql/groupby.sql
+2022-11-21 13:47:50.734257 (MainThread): 13:47:50  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-11-21 13:47:50.740513 (MainThread): 13:47:50  Parsing macros/sql/nullcheck_table.sql
+2022-11-21 13:47:50.742042 (MainThread): 13:47:50  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-11-21 13:47:50.743596 (MainThread): 13:47:50  Parsing macros/sql/get_relations_by_pattern.sql
+2022-11-21 13:47:50.746868 (MainThread): 13:47:50  Parsing macros/sql/get_relations_by_prefix.sql
+2022-11-21 13:47:50.750133 (MainThread): 13:47:50  Parsing macros/sql/safe_add.sql
+2022-11-21 13:47:50.751697 (MainThread): 13:47:50  Parsing macros/sql/haversine_distance.sql
+2022-11-21 13:47:50.757336 (MainThread): 13:47:50  Parsing macros/sql/unpivot.sql
+2022-11-21 13:47:50.764615 (MainThread): 13:47:50  Parsing macros/sql/generate_series.sql
+2022-11-21 13:47:50.768662 (MainThread): 13:47:50  Parsing macros/sql/width_bucket.sql
+2022-11-21 13:47:50.773494 (MainThread): 13:47:50  Parsing macros/sql/nullcheck.sql
+2022-11-21 13:47:50.775142 (MainThread): 13:47:50  Parsing macros/sql/union.sql
+2022-11-21 13:47:50.786265 (MainThread): 13:47:50  Parsing macros/sql/get_filtered_columns_in_relation.sql
+2022-11-21 13:47:50.788884 (MainThread): 13:47:50  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-11-21 13:47:50.812998 (MainThread): 13:47:50  Parsing macros/jinja_helpers/pretty_time.sql
+2022-11-21 13:47:50.814208 (MainThread): 13:47:50  Parsing macros/jinja_helpers/_is_relation.sql
+2022-11-21 13:47:50.815275 (MainThread): 13:47:50  Parsing macros/jinja_helpers/slugify.sql
+2022-11-21 13:47:50.816472 (MainThread): 13:47:50  Parsing macros/jinja_helpers/_is_ephemeral.sql
+2022-11-21 13:47:50.818279 (MainThread): 13:47:50  Parsing macros/jinja_helpers/log_info.sql
+2022-11-21 13:47:50.819341 (MainThread): 13:47:50  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-11-21 13:47:50.820382 (MainThread): 13:47:50  Parsing macros/web/get_url_parameter.sql
+2022-11-21 13:47:50.821935 (MainThread): 13:47:50  Parsing macros/web/get_url_path.sql
+2022-11-21 13:47:50.824138 (MainThread): 13:47:50  Parsing macros/web/get_url_host.sql
+2022-11-21 13:47:50.825860 (MainThread): 13:47:50  Parsing macros/cross_db_utils/array_concat.sql
+2022-11-21 13:47:50.827968 (MainThread): 13:47:50  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-11-21 13:47:50.831966 (MainThread): 13:47:50  Parsing macros/cross_db_utils/array_append.sql
+2022-11-21 13:47:50.834182 (MainThread): 13:47:50  Parsing macros/cross_db_utils/array_construct.sql
+2022-11-21 13:47:50.837148 (MainThread): 13:47:50  Parsing macros/cross_db_utils/cast_array_to_string.sql
+2022-11-21 13:47:50.839718 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/split_part.sql
+2022-11-21 13:47:50.841494 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/escape_single_quotes.sql
+2022-11-21 13:47:50.842851 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/length.sql
+2022-11-21 13:47:50.844152 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/right.sql
+2022-11-21 13:47:50.845574 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/hash.sql
+2022-11-21 13:47:50.846975 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/any_value.sql
+2022-11-21 13:47:50.848280 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/replace.sql
+2022-11-21 13:47:50.849787 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/cast_bool_to_text.sql
+2022-11-21 13:47:50.851044 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/bool_or.sql
+2022-11-21 13:47:50.852463 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/concat.sql
+2022-11-21 13:47:50.853779 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/xdb_deprecation_warning.sql
+2022-11-21 13:47:50.855753 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/identifier.sql
+2022-11-21 13:47:50.857442 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/listagg.sql
+2022-11-21 13:47:50.859182 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/datediff.sql
+2022-11-21 13:47:50.860689 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/dateadd.sql
+2022-11-21 13:47:50.862337 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/datatypes.sql
+2022-11-21 13:47:50.869307 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/position.sql
+2022-11-21 13:47:50.870725 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/literal.sql
+2022-11-21 13:47:50.872026 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/date_trunc.sql
+2022-11-21 13:47:50.873549 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/except.sql
+2022-11-21 13:47:50.874812 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/safe_cast.sql
+2022-11-21 13:47:50.876224 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/last_day.sql
+2022-11-21 13:47:50.877750 (MainThread): 13:47:50  Parsing macros/cross_db_utils/deprecated/intersect.sql
+2022-11-21 13:47:50.879019 (MainThread): 13:47:50  Parsing macros/generic_tests/expression_is_true.sql
+2022-11-21 13:47:50.880695 (MainThread): 13:47:50  Parsing macros/generic_tests/not_constant.sql
+2022-11-21 13:47:50.881885 (MainThread): 13:47:50  Parsing macros/generic_tests/sequential_values.sql
+2022-11-21 13:47:50.884685 (MainThread): 13:47:50  Parsing macros/generic_tests/not_null_proportion.sql
+2022-11-21 13:47:50.886757 (MainThread): 13:47:50  Parsing macros/generic_tests/at_least_one.sql
+2022-11-21 13:47:50.888056 (MainThread): 13:47:50  Parsing macros/generic_tests/equality.sql
+2022-11-21 13:47:50.891458 (MainThread): 13:47:50  Parsing macros/generic_tests/test_not_null_where.sql
+2022-11-21 13:47:50.892915 (MainThread): 13:47:50  Parsing macros/generic_tests/equal_rowcount.sql
+2022-11-21 13:47:50.894511 (MainThread): 13:47:50  Parsing macros/generic_tests/not_accepted_values.sql
+2022-11-21 13:47:50.896486 (MainThread): 13:47:50  Parsing macros/generic_tests/test_unique_where.sql
+2022-11-21 13:47:50.897869 (MainThread): 13:47:50  Parsing macros/generic_tests/mutually_exclusive_ranges.sql
+2022-11-21 13:47:50.906695 (MainThread): 13:47:50  Parsing macros/generic_tests/relationships_where.sql
+2022-11-21 13:47:50.908849 (MainThread): 13:47:50  Parsing macros/generic_tests/accepted_range.sql
+2022-11-21 13:47:50.911133 (MainThread): 13:47:50  Parsing macros/generic_tests/fewer_rows_than.sql
+2022-11-21 13:47:50.912727 (MainThread): 13:47:50  Parsing macros/generic_tests/unique_combination_of_columns.sql
+2022-11-21 13:47:50.915450 (MainThread): 13:47:50  Parsing macros/generic_tests/recency.sql
+2022-11-21 13:47:50.917085 (MainThread): 13:47:50  Parsing macros/generic_tests/cardinality_equality.sql
+2022-11-21 13:47:51.339922 (MainThread): 13:47:51  1699: static parser successfully parsed src/src_listings.sql
+2022-11-21 13:47:51.352048 (MainThread): 13:47:51  1699: static parser successfully parsed src/src_reviews.sql
+2022-11-21 13:47:51.354518 (MainThread): 13:47:51  1699: static parser successfully parsed src/src_hosts.sql
+2022-11-21 13:47:51.357191 (MainThread): 13:47:51  1699: static parser successfully parsed mart/mart_fullmoon_reviews.sql
+2022-11-21 13:47:51.361742 (MainThread): 13:47:51  1603: static parser failed on example/audit_log.sql
+2022-11-21 13:47:51.368041 (MainThread): 13:47:51  1602: parser fallback to jinja rendering on example/audit_log.sql
+2022-11-21 13:47:51.370365 (MainThread): 13:47:51  1699: static parser successfully parsed dim/dim_listings_cleansed.sql
+2022-11-21 13:47:51.374967 (MainThread): 13:47:51  1699: static parser successfully parsed dim/dim_listings_w_hosts.sql
+2022-11-21 13:47:51.379746 (MainThread): 13:47:51  1699: static parser successfully parsed dim/dim_hosts_cleansed.sql
+2022-11-21 13:47:51.384316 (MainThread): 13:47:51  1603: static parser failed on fct/fct_reviews.sql
+2022-11-21 13:47:51.398482 (MainThread): 13:47:51  1602: parser fallback to jinja rendering on fct/fct_reviews.sql
+2022-11-21 13:47:51.645141 (MainThread): 13:47:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fde1e23d0>]}
+2022-11-21 13:47:51.678308 (MainThread): 13:47:51  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3026c9ba90>]}
+2022-11-21 13:47:51.678591 (MainThread): 13:47:51  Found 9 models, 8 tests, 1 snapshot, 0 analyses, 502 macros, 0 operations, 1 seed file, 3 sources, 0 exposures, 0 metrics
+2022-11-21 13:47:51.678693 (MainThread): 13:47:51  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3026cfce20>]}
+2022-11-21 13:47:51.680217 (MainThread): 13:47:51  
+2022-11-21 13:47:51.680654 (MainThread): 13:47:51  Acquiring new snowflake connection "master"
+2022-11-21 13:47:51.681990 (ThreadPoolExecutor-0_0): 13:47:51  Acquiring new snowflake connection "list_AIRBNB"
+2022-11-21 13:47:51.696192 (ThreadPoolExecutor-0_0): 13:47:51  Using snowflake connection "list_AIRBNB"
+2022-11-21 13:47:51.696298 (ThreadPoolExecutor-0_0): 13:47:51  On list_AIRBNB: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "connection_name": "list_AIRBNB"} */
+show terse schemas in database AIRBNB
+    limit 10000
+2022-11-21 13:47:51.696380 (ThreadPoolExecutor-0_0): 13:47:51  Opening a new connection, currently in state init
+2022-11-21 13:47:51.827739 (Thread-194): handling poll request
+2022-11-21 13:47:51.828146 (Thread-194): 13:47:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f67139c10>]}
+2022-11-21 13:47:51.830342 (Thread-194): sending response (<Response 53108 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:52.550495 (ThreadPoolExecutor-0_0): 13:47:52  SQL status: SUCCESS 3 in 0.85 seconds
+2022-11-21 13:47:52.552508 (ThreadPoolExecutor-0_0): 13:47:52  On list_AIRBNB: Close
+2022-11-21 13:47:52.640787 (ThreadPoolExecutor-1_0): 13:47:52  Acquiring new snowflake connection "list_AIRBNB_raw"
+2022-11-21 13:47:52.642683 (ThreadPoolExecutor-1_1): 13:47:52  Acquiring new snowflake connection "list_AIRBNB_RAW"
+2022-11-21 13:47:52.652308 (ThreadPoolExecutor-1_0): 13:47:52  Using snowflake connection "list_AIRBNB_raw"
+2022-11-21 13:47:52.652441 (ThreadPoolExecutor-1_0): 13:47:52  On list_AIRBNB_raw: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "connection_name": "list_AIRBNB_raw"} */
+show terse objects in AIRBNB.raw
+2022-11-21 13:47:52.655300 (ThreadPoolExecutor-1_1): 13:47:52  Using snowflake connection "list_AIRBNB_RAW"
+2022-11-21 13:47:52.655414 (ThreadPoolExecutor-1_1): 13:47:52  On list_AIRBNB_RAW: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "connection_name": "list_AIRBNB_RAW"} */
+show terse objects in AIRBNB.RAW
+2022-11-21 13:47:52.655504 (ThreadPoolExecutor-1_1): 13:47:52  Opening a new connection, currently in state init
+2022-11-21 13:47:52.656410 (ThreadPoolExecutor-1_0): 13:47:52  Opening a new connection, currently in state closed
+2022-11-21 13:47:53.224200 (Thread-195): handling poll request
+2022-11-21 13:47:53.224618 (Thread-195): 13:47:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f671b4160>]}
+2022-11-21 13:47:53.225219 (Thread-195): sending response (<Response 3716 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:53.507477 (ThreadPoolExecutor-1_0): 13:47:53  SQL status: SUCCESS 16 in 0.85 seconds
+2022-11-21 13:47:53.509434 (ThreadPoolExecutor-1_0): 13:47:53  On list_AIRBNB_raw: Close
+2022-11-21 13:47:53.511881 (ThreadPoolExecutor-1_1): 13:47:53  SQL status: SUCCESS 16 in 0.86 seconds
+2022-11-21 13:47:53.514269 (ThreadPoolExecutor-1_1): 13:47:53  On list_AIRBNB_RAW: Close
+2022-11-21 13:47:53.619022 (MainThread): 13:47:53  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f302a2c64f0>]}
+2022-11-21 13:47:53.619731 (MainThread): 13:47:53  Concurrency: 4 threads (target='dev')
+2022-11-21 13:47:53.619864 (MainThread): 13:47:53  
+2022-11-21 13:47:53.622022 (Thread-1): 13:47:53  Began running node model.dbt_demo.audit_log
+2022-11-21 13:47:53.622355 (Thread-1): 13:47:53  1 of 9 START sql view model RAW.audit_log ...................................... [RUN]
+2022-11-21 13:47:53.622762 (Thread-1): 13:47:53  Acquiring new snowflake connection "model.dbt_demo.audit_log"
+2022-11-21 13:47:53.622871 (Thread-1): 13:47:53  Began compiling node model.dbt_demo.audit_log
+2022-11-21 13:47:53.622971 (Thread-1): 13:47:53  Compiling model.dbt_demo.audit_log
+2022-11-21 13:47:53.624043 (Thread-2): 13:47:53  Began running node model.dbt_demo.src_hosts
+2022-11-21 13:47:53.624274 (Thread-2): 13:47:53  2 of 9 START sql view model RAW.src_hosts ...................................... [RUN]
+2022-11-21 13:47:53.624655 (Thread-2): 13:47:53  Acquiring new snowflake connection "model.dbt_demo.src_hosts"
+2022-11-21 13:47:53.624777 (Thread-2): 13:47:53  Began compiling node model.dbt_demo.src_hosts
+2022-11-21 13:47:53.624859 (Thread-2): 13:47:53  Compiling model.dbt_demo.src_hosts
+2022-11-21 13:47:53.627944 (Thread-2): 13:47:53  Writing injected SQL for node "model.dbt_demo.src_hosts"
+2022-11-21 13:47:53.628413 (Thread-3): 13:47:53  Began running node model.dbt_demo.src_listings
+2022-11-21 13:47:53.628657 (Thread-3): 13:47:53  3 of 9 START sql view model RAW.src_listings ................................... [RUN]
+2022-11-21 13:47:53.629088 (Thread-3): 13:47:53  Acquiring new snowflake connection "model.dbt_demo.src_listings"
+2022-11-21 13:47:53.629183 (Thread-3): 13:47:53  Began compiling node model.dbt_demo.src_listings
+2022-11-21 13:47:53.629263 (Thread-3): 13:47:53  Compiling model.dbt_demo.src_listings
+2022-11-21 13:47:53.632148 (Thread-3): 13:47:53  Writing injected SQL for node "model.dbt_demo.src_listings"
+2022-11-21 13:47:53.632902 (Thread-4): 13:47:53  Began running node model.dbt_demo.src_reviews
+2022-11-21 13:47:53.633133 (Thread-4): 13:47:53  4 of 9 START sql view model RAW.src_reviews .................................... [RUN]
+2022-11-21 13:47:53.633532 (Thread-4): 13:47:53  Acquiring new snowflake connection "model.dbt_demo.src_reviews"
+2022-11-21 13:47:53.633626 (Thread-4): 13:47:53  Began compiling node model.dbt_demo.src_reviews
+2022-11-21 13:47:53.633705 (Thread-4): 13:47:53  Compiling model.dbt_demo.src_reviews
+2022-11-21 13:47:53.636481 (Thread-4): 13:47:53  Writing injected SQL for node "model.dbt_demo.src_reviews"
+2022-11-21 13:47:53.639737 (Thread-1): 13:47:53  Writing injected SQL for node "model.dbt_demo.audit_log"
+2022-11-21 13:47:53.644554 (Thread-2): 13:47:53  finished collecting timing info
+2022-11-21 13:47:53.644731 (Thread-2): 13:47:53  Began executing node model.dbt_demo.src_hosts
+2022-11-21 13:47:53.649974 (Thread-4): 13:47:53  finished collecting timing info
+2022-11-21 13:47:53.650112 (Thread-4): 13:47:53  Began executing node model.dbt_demo.src_reviews
+2022-11-21 13:47:53.682531 (Thread-2): 13:47:53  Writing runtime sql for node "model.dbt_demo.src_hosts"
+2022-11-21 13:47:53.685628 (Thread-4): 13:47:53  Writing runtime sql for node "model.dbt_demo.src_reviews"
+2022-11-21 13:47:53.687458 (Thread-1): 13:47:53  finished collecting timing info
+2022-11-21 13:47:53.687615 (Thread-1): 13:47:53  Began executing node model.dbt_demo.audit_log
+2022-11-21 13:47:53.691471 (Thread-1): 13:47:53  Writing runtime sql for node "model.dbt_demo.audit_log"
+2022-11-21 13:47:53.691719 (Thread-3): 13:47:53  finished collecting timing info
+2022-11-21 13:47:53.691861 (Thread-3): 13:47:53  Began executing node model.dbt_demo.src_listings
+2022-11-21 13:47:53.694664 (Thread-3): 13:47:53  Writing runtime sql for node "model.dbt_demo.src_listings"
+2022-11-21 13:47:53.699759 (Thread-2): 13:47:53  Using snowflake connection "model.dbt_demo.src_hosts"
+2022-11-21 13:47:53.699870 (Thread-2): 13:47:53  On model.dbt_demo.src_hosts: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.src_hosts"} */
+create or replace  view AIRBNB.RAW.src_hosts
+  
+   as (
+    with raw_hosts as (
+    select * from AIRBNB.raw.raw_hosts
+)
+
+select
+id as host_id,
+NAME as host_name,
+is_superhost,
+created_at,
+updated_at
+from
+raw_hosts
+  );
+2022-11-21 13:47:53.699954 (Thread-2): 13:47:53  Opening a new connection, currently in state closed
+2022-11-21 13:47:53.700741 (Thread-4): 13:47:53  Using snowflake connection "model.dbt_demo.src_reviews"
+2022-11-21 13:47:53.700846 (Thread-4): 13:47:53  On model.dbt_demo.src_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.src_reviews"} */
+create or replace  view AIRBNB.RAW.src_reviews
+  
+   as (
+    WITH raw_reviews AS (  
+SELECT  *  FROM  AIRBNB.raw.raw_reviews  
+)  
+SELECT
+listing_id,
+date AS review_date,
+reviewer_name,
+comments AS review_text,
+sentiment AS review_sentiment  FROM  
+raw_reviews
+  );
+2022-11-21 13:47:53.700926 (Thread-4): 13:47:53  Opening a new connection, currently in state init
+2022-11-21 13:47:53.707232 (Thread-1): 13:47:53  Using snowflake connection "model.dbt_demo.audit_log"
+2022-11-21 13:47:53.707343 (Thread-1): 13:47:53  On model.dbt_demo.audit_log: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.audit_log"} */
+create or replace  view AIRBNB.RAW.audit_log
+  
+   as (
+    -- This is audit log
+select *, 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc' as invocationid from raw_hosts
+  );
+2022-11-21 13:47:53.707426 (Thread-1): 13:47:53  Opening a new connection, currently in state closed
+2022-11-21 13:47:53.708882 (Thread-3): 13:47:53  Using snowflake connection "model.dbt_demo.src_listings"
+2022-11-21 13:47:53.708979 (Thread-3): 13:47:53  On model.dbt_demo.src_listings: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.src_listings"} */
+create or replace  view AIRBNB.RAW.src_listings
+  
+   as (
+    WITH raw_listings AS (  
+    SELECT  
+        *  
+    FROM  
+        AIRBNB.raw.raw_listings 
+)  
+SELECT  
+    id AS listing_id,  
+    name AS listing_name,  
+    listing_url,  
+    room_type,  
+    minimum_nights,  
+    host_id,  
+    price AS price_str,  
+    created_at,  
+    updated_at  
+FROM  
+    raw_listings
+  );
+2022-11-21 13:47:53.709054 (Thread-3): 13:47:53  Opening a new connection, currently in state init
+2022-11-21 13:47:54.685489 (Thread-196): handling poll request
+2022-11-21 13:47:54.685911 (Thread-196): 13:47:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f671a7790>]}
+2022-11-21 13:47:54.686960 (Thread-196): sending response (<Response 22554 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:54.707017 (Thread-2): 13:47:54  SQL status: SUCCESS 1 in 1.01 seconds
+2022-11-21 13:47:54.729347 (Thread-2): 13:47:54  finished collecting timing info
+2022-11-21 13:47:54.729659 (Thread-2): 13:47:54  On model.dbt_demo.src_hosts: Close
+2022-11-21 13:47:54.750675 (Thread-4): 13:47:54  SQL status: SUCCESS 1 in 1.05 seconds
+2022-11-21 13:47:54.752460 (Thread-4): 13:47:54  finished collecting timing info
+2022-11-21 13:47:54.752618 (Thread-4): 13:47:54  On model.dbt_demo.src_reviews: Close
+2022-11-21 13:47:54.756236 (Thread-3): 13:47:54  SQL status: SUCCESS 1 in 1.05 seconds
+2022-11-21 13:47:54.759267 (Thread-3): 13:47:54  finished collecting timing info
+2022-11-21 13:47:54.759427 (Thread-3): 13:47:54  On model.dbt_demo.src_listings: Close
+2022-11-21 13:47:54.776544 (Thread-1): 13:47:54  SQL status: SUCCESS 1 in 1.07 seconds
+2022-11-21 13:47:54.778233 (Thread-1): 13:47:54  finished collecting timing info
+2022-11-21 13:47:54.778397 (Thread-1): 13:47:54  On model.dbt_demo.audit_log: Close
+2022-11-21 13:47:54.806378 (Thread-2): 13:47:54  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fde16d6d0>]}
+2022-11-21 13:47:54.806758 (Thread-2): 13:47:54  2 of 9 OK created sql view model RAW.src_hosts ................................. [SUCCESS 1 in 1.18s]
+2022-11-21 13:47:54.806995 (Thread-2): 13:47:54  Finished running node model.dbt_demo.src_hosts
+2022-11-21 13:47:54.807724 (Thread-2): 13:47:54  Began running node model.dbt_demo.dim_hosts_cleansed
+2022-11-21 13:47:54.807936 (Thread-2): 13:47:54  5 of 9 START sql view model RAW.dim_hosts_cleansed ............................. [RUN]
+2022-11-21 13:47:54.808330 (Thread-2): 13:47:54  Acquiring new snowflake connection "model.dbt_demo.dim_hosts_cleansed"
+2022-11-21 13:47:54.808427 (Thread-2): 13:47:54  Began compiling node model.dbt_demo.dim_hosts_cleansed
+2022-11-21 13:47:54.808514 (Thread-2): 13:47:54  Compiling model.dbt_demo.dim_hosts_cleansed
+2022-11-21 13:47:54.812029 (Thread-2): 13:47:54  Writing injected SQL for node "model.dbt_demo.dim_hosts_cleansed"
+2022-11-21 13:47:54.824351 (Thread-2): 13:47:54  finished collecting timing info
+2022-11-21 13:47:54.824492 (Thread-2): 13:47:54  Began executing node model.dbt_demo.dim_hosts_cleansed
+2022-11-21 13:47:54.827432 (Thread-2): 13:47:54  Writing runtime sql for node "model.dbt_demo.dim_hosts_cleansed"
+2022-11-21 13:47:54.830823 (Thread-4): 13:47:54  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fde108be0>]}
+2022-11-21 13:47:54.831141 (Thread-4): 13:47:54  4 of 9 OK created sql view model RAW.src_reviews ............................... [SUCCESS 1 in 1.20s]
+2022-11-21 13:47:54.831329 (Thread-4): 13:47:54  Finished running node model.dbt_demo.src_reviews
+2022-11-21 13:47:54.831984 (Thread-4): 13:47:54  Began running node model.dbt_demo.fct_reviews
+2022-11-21 13:47:54.832181 (Thread-4): 13:47:54  6 of 9 START sql incremental model RAW.fct_reviews ............................. [RUN]
+2022-11-21 13:47:54.832542 (Thread-4): 13:47:54  Acquiring new snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:54.832637 (Thread-4): 13:47:54  Began compiling node model.dbt_demo.fct_reviews
+2022-11-21 13:47:54.832753 (Thread-4): 13:47:54  Compiling model.dbt_demo.fct_reviews
+2022-11-21 13:47:54.838888 (Thread-4): 13:47:54  Writing injected SQL for node "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:54.844036 (Thread-2): 13:47:54  Using snowflake connection "model.dbt_demo.dim_hosts_cleansed"
+2022-11-21 13:47:54.844144 (Thread-2): 13:47:54  On model.dbt_demo.dim_hosts_cleansed: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.dim_hosts_cleansed"} */
+create or replace  view AIRBNB.RAW.dim_hosts_cleansed
+  
+   as (
+      
+  
+WITH src_hosts AS (  
+    SELECT  
+        *  
+    FROM  
+        AIRBNB.RAW.src_hosts  
+)  
+SELECT  
+    host_id,  
+    NVL(  
+        host_name,  
+        'Anonymous'  
+    ) AS host_name,  
+    is_superhost,
+    created_at,  
+    updated_at  
+FROM  
+    src_hosts
+  );
+2022-11-21 13:47:54.844226 (Thread-2): 13:47:54  Opening a new connection, currently in state closed
+2022-11-21 13:47:54.851859 (Thread-4): 13:47:54  finished collecting timing info
+2022-11-21 13:47:54.852006 (Thread-4): 13:47:54  Began executing node model.dbt_demo.fct_reviews
+2022-11-21 13:47:54.860099 (Thread-3): 13:47:54  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fde118fd0>]}
+2022-11-21 13:47:54.860413 (Thread-3): 13:47:54  3 of 9 OK created sql view model RAW.src_listings .............................. [SUCCESS 1 in 1.23s]
+2022-11-21 13:47:54.860596 (Thread-3): 13:47:54  Finished running node model.dbt_demo.src_listings
+2022-11-21 13:47:54.874336 (Thread-1): 13:47:54  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fde13e850>]}
+2022-11-21 13:47:54.874685 (Thread-1): 13:47:54  1 of 9 OK created sql view model RAW.audit_log ................................. [SUCCESS 1 in 1.25s]
+2022-11-21 13:47:54.874876 (Thread-1): 13:47:54  Finished running node model.dbt_demo.audit_log
+2022-11-21 13:47:54.885267 (Thread-3): 13:47:54  Began running node model.dbt_demo.dim_listings_cleansed
+2022-11-21 13:47:54.885488 (Thread-3): 13:47:54  7 of 9 START sql table model RAW.dim_listings_cleansed ......................... [RUN]
+2022-11-21 13:47:54.885844 (Thread-3): 13:47:54  Acquiring new snowflake connection "model.dbt_demo.dim_listings_cleansed"
+2022-11-21 13:47:54.885938 (Thread-3): 13:47:54  Began compiling node model.dbt_demo.dim_listings_cleansed
+2022-11-21 13:47:54.886020 (Thread-3): 13:47:54  Compiling model.dbt_demo.dim_listings_cleansed
+2022-11-21 13:47:54.888889 (Thread-3): 13:47:54  Writing injected SQL for node "model.dbt_demo.dim_listings_cleansed"
+2022-11-21 13:47:54.891154 (Thread-4): 13:47:54  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:54.891261 (Thread-4): 13:47:54  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+create or replace  view AIRBNB.RAW.fct_reviews__dbt_tmp
+  
+   as (
+      
+WITH src_reviews AS (  
+  SELECT * FROM AIRBNB.RAW.src_reviews  
+)  
+SELECT * FROM src_reviews  
+WHERE review_text is not null  
+  
+  
+  AND review_date > (select max(review_date) from AIRBNB.RAW.fct_reviews)  
+  );
+2022-11-21 13:47:54.891339 (Thread-4): 13:47:54  Opening a new connection, currently in state closed
+2022-11-21 13:47:54.903729 (Thread-3): 13:47:54  finished collecting timing info
+2022-11-21 13:47:54.903878 (Thread-3): 13:47:54  Began executing node model.dbt_demo.dim_listings_cleansed
+2022-11-21 13:47:54.925694 (Thread-3): 13:47:54  Writing runtime sql for node "model.dbt_demo.dim_listings_cleansed"
+2022-11-21 13:47:54.938162 (Thread-3): 13:47:54  Using snowflake connection "model.dbt_demo.dim_listings_cleansed"
+2022-11-21 13:47:54.938335 (Thread-3): 13:47:54  On model.dbt_demo.dim_listings_cleansed: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.dim_listings_cleansed"} */
+create or replace transient table AIRBNB.RAW.dim_listings_cleansed  as
+        (with src_listings as (
+    select * from AIRBNB.RAW.src_listings
+)
+SELECT  
+  listing_id,  
+  listing_name,  
+  room_type,  
+  CASE  
+    WHEN minimum_nights = 0 THEN 1 ELSE minimum_nights  
+  END AS minimum_nights,  
+  host_id,  
+  REPLACE(  
+    price_str,  
+    '$'  
+  ) :: NUMBER(  
+    10,  
+    2  
+  ) AS price,  
+  created_at,  
+  updated_at  
+FROM  
+  src_listings
+        );
+2022-11-21 13:47:54.938443 (Thread-3): 13:47:54  Opening a new connection, currently in state closed
+2022-11-21 13:47:55.856091 (Thread-4): 13:47:55  SQL status: SUCCESS 1 in 0.96 seconds
+2022-11-21 13:47:55.858820 (Thread-2): 13:47:55  SQL status: SUCCESS 1 in 1.01 seconds
+2022-11-21 13:47:55.860535 (Thread-2): 13:47:55  finished collecting timing info
+2022-11-21 13:47:55.860693 (Thread-2): 13:47:55  On model.dbt_demo.dim_hosts_cleansed: Close
+2022-11-21 13:47:55.869657 (Thread-4): 13:47:55  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:55.869779 (Thread-4): 13:47:55  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+describe table AIRBNB.RAW.fct_reviews__dbt_tmp
+2022-11-21 13:47:55.934524 (Thread-4): 13:47:55  SQL status: SUCCESS 5 in 0.06 seconds
+2022-11-21 13:47:55.938325 (Thread-4): 13:47:55  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:55.938431 (Thread-4): 13:47:55  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+describe table AIRBNB.RAW.fct_reviews
+2022-11-21 13:47:55.948819 (Thread-2): 13:47:55  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fde145eb0>]}
+2022-11-21 13:47:55.949178 (Thread-2): 13:47:55  5 of 9 OK created sql view model RAW.dim_hosts_cleansed ........................ [SUCCESS 1 in 1.14s]
+2022-11-21 13:47:55.949410 (Thread-2): 13:47:55  Finished running node model.dbt_demo.dim_hosts_cleansed
+2022-11-21 13:47:55.993674 (Thread-4): 13:47:55  SQL status: SUCCESS 5 in 0.06 seconds
+2022-11-21 13:47:56.007998 (Thread-4): 13:47:56  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:56.008123 (Thread-4): 13:47:56  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+describe table AIRBNB.RAW.fct_reviews__dbt_tmp
+2022-11-21 13:47:56.073190 (Thread-4): 13:47:56  SQL status: SUCCESS 5 in 0.06 seconds
+2022-11-21 13:47:56.076844 (Thread-4): 13:47:56  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:56.076961 (Thread-4): 13:47:56  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+describe table "AIRBNB"."RAW"."FCT_REVIEWS"
+2022-11-21 13:47:56.098767 (Thread-197): handling poll request
+2022-11-21 13:47:56.099223 (Thread-197): 13:47:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f6708f670>]}
+2022-11-21 13:47:56.100576 (Thread-197): sending response (<Response 32934 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:56.140122 (Thread-4): 13:47:56  SQL status: SUCCESS 5 in 0.06 seconds
+2022-11-21 13:47:56.150408 (Thread-4): 13:47:56  
+    In "AIRBNB"."RAW"."FCT_REVIEWS":
+        Schema changed: False
+        Source columns not in target: []
+        Target columns not in source: []
+        New column types: []
+  
+2022-11-21 13:47:56.165979 (Thread-4): 13:47:56  Writing runtime sql for node "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:56.177983 (Thread-4): 13:47:56  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:56.178143 (Thread-4): 13:47:56  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+BEGIN
+2022-11-21 13:47:56.257381 (Thread-4): 13:47:56  SQL status: SUCCESS 1 in 0.08 seconds
+2022-11-21 13:47:56.257601 (Thread-4): 13:47:56  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:56.257685 (Thread-4): 13:47:56  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+insert into AIRBNB.RAW.fct_reviews ("LISTING_ID", "REVIEW_DATE", "REVIEWER_NAME", "REVIEW_TEXT", "REVIEW_SENTIMENT")
+        (
+            select "LISTING_ID", "REVIEW_DATE", "REVIEWER_NAME", "REVIEW_TEXT", "REVIEW_SENTIMENT"
+            from AIRBNB.RAW.fct_reviews__dbt_tmp
+        );
+2022-11-21 13:47:56.795755 (Thread-4): 13:47:56  SQL status: SUCCESS 0 in 0.54 seconds
+2022-11-21 13:47:56.796011 (Thread-4): 13:47:56  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:56.796098 (Thread-4): 13:47:56  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+COMMIT
+2022-11-21 13:47:56.941426 (Thread-4): 13:47:56  SQL status: SUCCESS 1 in 0.15 seconds
+2022-11-21 13:47:56.950917 (Thread-4): 13:47:56  Using snowflake connection "model.dbt_demo.fct_reviews"
+2022-11-21 13:47:56.951052 (Thread-4): 13:47:56  On model.dbt_demo.fct_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.fct_reviews"} */
+drop view if exists AIRBNB.RAW.fct_reviews__dbt_tmp cascade
+2022-11-21 13:47:57.067961 (Thread-3): 13:47:57  SQL status: SUCCESS 1 in 2.13 seconds
+2022-11-21 13:47:57.074657 (Thread-3): 13:47:57  finished collecting timing info
+2022-11-21 13:47:57.074825 (Thread-3): 13:47:57  On model.dbt_demo.dim_listings_cleansed: Close
+2022-11-21 13:47:57.077096 (Thread-4): 13:47:57  SQL status: SUCCESS 1 in 0.13 seconds
+2022-11-21 13:47:57.078720 (Thread-4): 13:47:57  finished collecting timing info
+2022-11-21 13:47:57.078861 (Thread-4): 13:47:57  On model.dbt_demo.fct_reviews: Close
+2022-11-21 13:47:57.164080 (Thread-4): 13:47:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2fde0a16d0>]}
+2022-11-21 13:47:57.164523 (Thread-4): 13:47:57  6 of 9 OK created sql incremental model RAW.fct_reviews ........................ [SUCCESS 0 in 2.33s]
+2022-11-21 13:47:57.164812 (Thread-4): 13:47:57  Finished running node model.dbt_demo.fct_reviews
+2022-11-21 13:47:57.165799 (Thread-3): 13:47:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3026bc7c70>]}
+2022-11-21 13:47:57.166130 (Thread-3): 13:47:57  7 of 9 OK created sql table model RAW.dim_listings_cleansed .................... [SUCCESS 1 in 2.28s]
+2022-11-21 13:47:57.166366 (Thread-3): 13:47:57  Finished running node model.dbt_demo.dim_listings_cleansed
+2022-11-21 13:47:57.167381 (Thread-1): 13:47:57  Began running node model.dbt_demo.dim_listings_w_hosts
+2022-11-21 13:47:57.167625 (Thread-1): 13:47:57  8 of 9 START sql table model RAW.dim_listings_w_hosts .......................... [RUN]
+2022-11-21 13:47:57.168053 (Thread-1): 13:47:57  Acquiring new snowflake connection "model.dbt_demo.dim_listings_w_hosts"
+2022-11-21 13:47:57.168156 (Thread-1): 13:47:57  Began compiling node model.dbt_demo.dim_listings_w_hosts
+2022-11-21 13:47:57.168245 (Thread-1): 13:47:57  Compiling model.dbt_demo.dim_listings_w_hosts
+2022-11-21 13:47:57.172105 (Thread-1): 13:47:57  Writing injected SQL for node "model.dbt_demo.dim_listings_w_hosts"
+2022-11-21 13:47:57.172821 (Thread-2): 13:47:57  Began running node model.dbt_demo.mart_fullmoon_reviews
+2022-11-21 13:47:57.173057 (Thread-2): 13:47:57  9 of 9 START sql table model RAW.mart_fullmoon_reviews ......................... [RUN]
+2022-11-21 13:47:57.173453 (Thread-2): 13:47:57  Acquiring new snowflake connection "model.dbt_demo.mart_fullmoon_reviews"
+2022-11-21 13:47:57.173550 (Thread-2): 13:47:57  Began compiling node model.dbt_demo.mart_fullmoon_reviews
+2022-11-21 13:47:57.173634 (Thread-2): 13:47:57  Compiling model.dbt_demo.mart_fullmoon_reviews
+2022-11-21 13:47:57.177064 (Thread-2): 13:47:57  Writing injected SQL for node "model.dbt_demo.mart_fullmoon_reviews"
+2022-11-21 13:47:57.184518 (Thread-1): 13:47:57  finished collecting timing info
+2022-11-21 13:47:57.184746 (Thread-1): 13:47:57  Began executing node model.dbt_demo.dim_listings_w_hosts
+2022-11-21 13:47:57.187960 (Thread-1): 13:47:57  Writing runtime sql for node "model.dbt_demo.dim_listings_w_hosts"
+2022-11-21 13:47:57.188304 (Thread-2): 13:47:57  finished collecting timing info
+2022-11-21 13:47:57.188452 (Thread-2): 13:47:57  Began executing node model.dbt_demo.mart_fullmoon_reviews
+2022-11-21 13:47:57.191162 (Thread-2): 13:47:57  Writing runtime sql for node "model.dbt_demo.mart_fullmoon_reviews"
+2022-11-21 13:47:57.202992 (Thread-1): 13:47:57  Using snowflake connection "model.dbt_demo.dim_listings_w_hosts"
+2022-11-21 13:47:57.203152 (Thread-1): 13:47:57  On model.dbt_demo.dim_listings_w_hosts: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.dim_listings_w_hosts"} */
+create or replace transient table AIRBNB.RAW.dim_listings_w_hosts  as
+        (WITH  
+l AS (  
+    SELECT  
+        *  
+    FROM  
+        AIRBNB.RAW.dim_listings_cleansed  
+),  
+h AS (  
+    SELECT *   
+    FROM AIRBNB.RAW.dim_hosts_cleansed  
+)  
+  
+SELECT   
+    l.listing_id,  
+    l.listing_name,  
+    l.room_type,  
+    l.minimum_nights,  
+    l.price,  
+    l.host_id,  
+    h.host_name,  
+    h.is_superhost as host_is_superhost,  
+    l.created_at,  
+    GREATEST(l.updated_at, h.updated_at) as updated_at  FROM l  
+LEFT JOIN h ON (h.host_id = l.host_id)
+        );
+2022-11-21 13:47:57.203242 (Thread-1): 13:47:57  Opening a new connection, currently in state closed
+2022-11-21 13:47:57.204252 (Thread-2): 13:47:57  Using snowflake connection "model.dbt_demo.mart_fullmoon_reviews"
+2022-11-21 13:47:57.204371 (Thread-2): 13:47:57  On model.dbt_demo.mart_fullmoon_reviews: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "dev", "node_id": "model.dbt_demo.mart_fullmoon_reviews"} */
+create or replace transient table AIRBNB.RAW.mart_fullmoon_reviews  as
+        (  
+  
+WITH fct_reviews AS (  
+    SELECT * FROM AIRBNB.RAW.fct_reviews  
+),  
+full_moon_dates AS (  
+    SELECT * FROM AIRBNB.RAW.seed_full_moon_dates  
+)  
+  
+SELECT  
+  r.*,
+  CASE  
+    WHEN fm.full_moon_date IS NULL THEN 'not full moon'  
+    ELSE 'full moon'  
+  END AS is_full_moon  
+FROM  
+  fct_reviews  
+  r  
+  LEFT JOIN full_moon_dates  
+  fm  
+  ON (TO_DATE(r.review_date) = DATEADD(DAY, 1, fm.full_moon_date))
+        );
+2022-11-21 13:47:57.204450 (Thread-2): 13:47:57  Opening a new connection, currently in state closed
+2022-11-21 13:47:57.502887 (Thread-198): handling poll request
+2022-11-21 13:47:57.503284 (Thread-198): 13:47:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f67094820>]}
+2022-11-21 13:47:57.504260 (Thread-198): sending response (<Response 22360 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:58.904480 (Thread-199): handling poll request
+2022-11-21 13:47:58.904911 (Thread-199): 13:47:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f670949a0>]}
+2022-11-21 13:47:58.905399 (Thread-199): sending response (<Response 297 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:47:59.232927 (Thread-1): 13:47:59  SQL status: SUCCESS 1 in 2.03 seconds
+2022-11-21 13:47:59.234941 (Thread-1): 13:47:59  finished collecting timing info
+2022-11-21 13:47:59.235102 (Thread-1): 13:47:59  On model.dbt_demo.dim_listings_w_hosts: Close
+2022-11-21 13:47:59.312585 (Thread-1): 13:47:59  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3085108fd0>]}
+2022-11-21 13:47:59.313104 (Thread-1): 13:47:59  8 of 9 OK created sql table model RAW.dim_listings_w_hosts ..................... [SUCCESS 1 in 2.14s]
+2022-11-21 13:47:59.313384 (Thread-1): 13:47:59  Finished running node model.dbt_demo.dim_listings_w_hosts
+2022-11-21 13:48:00.311967 (Thread-200): handling poll request
+2022-11-21 13:48:00.312364 (Thread-200): 13:48:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f67094d30>]}
+2022-11-21 13:48:00.312959 (Thread-200): sending response (<Response 2823 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:48:01.701280 (Thread-2): 13:48:01  SQL status: SUCCESS 1 in 4.5 seconds
+2022-11-21 13:48:01.703207 (Thread-2): 13:48:01  finished collecting timing info
+2022-11-21 13:48:01.703359 (Thread-2): 13:48:01  On model.dbt_demo.mart_fullmoon_reviews: Close
+2022-11-21 13:48:01.735411 (Thread-201): handling poll request
+2022-11-21 13:48:01.735818 (Thread-201): 13:48:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f67094e80>]}
+2022-11-21 13:48:01.736351 (Thread-201): sending response (<Response 1467 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:48:01.797010 (Thread-2): 13:48:01  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a8703876-0f7a-4560-ba29-0c7cc53c0dfc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3085102310>]}
+2022-11-21 13:48:01.797438 (Thread-2): 13:48:01  9 of 9 OK created sql table model RAW.mart_fullmoon_reviews .................... [SUCCESS 1 in 4.62s]
+2022-11-21 13:48:01.797671 (Thread-2): 13:48:01  Finished running node model.dbt_demo.mart_fullmoon_reviews
+2022-11-21 13:48:01.799710 (MainThread): 13:48:01  Acquiring new snowflake connection "master"
+2022-11-21 13:48:01.800388 (MainThread): 13:48:01  
+2022-11-21 13:48:01.800530 (MainThread): 13:48:01  Finished running 5 view models, 1 incremental model, 3 table models in 0 hours 0 minutes and 10.12 seconds (10.12s).
+2022-11-21 13:48:01.800646 (MainThread): 13:48:01  Connection 'master' was properly closed.
+2022-11-21 13:48:01.800776 (MainThread): 13:48:01  Connection 'model.dbt_demo.dim_listings_w_hosts' was properly closed.
+2022-11-21 13:48:01.800871 (MainThread): 13:48:01  Connection 'model.dbt_demo.mart_fullmoon_reviews' was properly closed.
+2022-11-21 13:48:01.800961 (MainThread): 13:48:01  Connection 'model.dbt_demo.dim_listings_cleansed' was properly closed.
+2022-11-21 13:48:01.801052 (MainThread): 13:48:01  Connection 'model.dbt_demo.fct_reviews' was properly closed.
+2022-11-21 13:48:01.900582 (MainThread): 13:48:01  
+2022-11-21 13:48:01.900843 (MainThread): 13:48:01  Completed successfully
+2022-11-21 13:48:01.900970 (MainThread): 13:48:01  
+2022-11-21 13:48:01.901066 (MainThread): 13:48:01  Done. PASS=9 WARN=0 ERROR=0 SKIP=0 TOTAL=9
+2022-11-21 13:48:03.138779 (Thread-202): handling poll request
+2022-11-21 13:48:03.139185 (Thread-202): 13:48:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f67099eb0>]}
+2022-11-21 13:48:03.141055 (Thread-202): sending response (<Response 31853 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:48:04.092317 (Thread-203): handling status request
+2022-11-21 13:48:04.092748 (Thread-203): 13:48:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f67094d60>]}
+2022-11-21 13:48:04.093264 (Thread-203): sending response (<Response 1273 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:48:04.186649 (Thread-204): handling status request
+2022-11-21 13:48:04.187067 (Thread-204): 13:48:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f67094850>]}
+2022-11-21 13:48:04.187538 (Thread-204): sending response (<Response 1273 bytes [200 OK]>) to 10.0.171.29
+2022-11-21 13:48:14.991841 (Thread-205): handling status request
+2022-11-21 13:48:14.992261 (Thread-205): 13:48:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '0f1d2b1e-7c74-4e60-9209-60ebe39343e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f670946a0>]}
+2022-11-21 13:48:14.992760 (Thread-205): sending response (<Response 1273 bytes [200 OK]>) to 10.0.171.29
